@@ -1,10 +1,23 @@
-alert('Hello World');
+// removed all previous code and built an array of objects
 
-let favouriteFood = 'Oran Berry';
-document.write(favouriteFood);
+let pokemonList = [
+    {
+        name: 'Bulbasaur',
+        height: '0.7',
+        type: ['Grass','Poison']   
+    },
 
-favouriteFood = 'Pokeblock';
-document.write(favouriteFood);
+    {
+        name: 'Ivysaur',
+        height: '1',
+        type: ['Grass','Poison']   
+    },
 
-favouriteFood = 'Curry';
-document.write(favouriteFood);
+    {
+        name: 'Venusaur',
+        height: '2',
+        type: ['Grass','Poison']   
+    }
+]
+
+console.log(pokemonList);
