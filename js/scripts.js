@@ -18,16 +18,14 @@ let pokemonList = [
     }
 ]
 
-//  console.log(pokemonList);
-//  FOR loop for pokemon list
-for (let i = 0; i < pokemonList.length; i++) {
-    //  set variable for pokemon list     
-    let pokemon = pokemonList[i]
 
-    //  conditional for height = if taller than 1 THIS else THAT
-    if (pokemon.height > 1) {
-        document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + ' - Wow, that\'s big!' + "<br>" + "<br>")   
-    } else {
-        document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + "<br>" + "<br>")    
-    }
-}
+//  FOR loop for pokemon list
+//  for (let i = 0; i < pokemonList.length; i++) {   
+//     let pokemon = pokemonList[i]
+
+//     if (pokemon.height > 1) {
+//         document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + ' - Wow, that\'s big!' + "<br>" + "<br>")   
+//     } else {
+//         document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + "<br>" + "<br>")    
+//     }
+//  }
