@@ -29,3 +29,13 @@ let pokemonList = [
 //         document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + "<br>" + "<br>")    
 //     }
 //  }
+
+//  forEach() external function
+function printPokemonInfo (pokemon) {
+    if (pokemon.height > 1) {
+        document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + ' - Wow, that\'s big!' + "<br>" + "<br>");
+    } else {
+        document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + "<br>" + "<br>")
+    }
+}
+pokemonList.forEach(printPokemonInfo)
