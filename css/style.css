@@ -34,7 +34,6 @@ ul {
     margin: 0 20px;
 }
 
-
 .button-style {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -50,6 +49,18 @@ ul {
     border-radius: 10px;
     padding: 15px 20px;
     margin: 10px 0px;
+}
+
+.pokedex-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.hidden {
+    display: none;
 }
 
 @media all and (max-width: 500px) {
