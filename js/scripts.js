@@ -111,15 +111,3 @@ pokemonRepository.loadList().then(function() {
         pokemonRepository.addListItem(pokemon)
     });     
 });
-
-
-
-//  forEach() external function
-// pokemonRepository.getAll().forEach( function (pokemon) {
-//     if (pokemon.height > 1) {
-//         document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + ' - Wow, that\'s big!' + "<br>" + "<br>");
-//     } else {
-//         document.write(pokemon.name + "\n" + '(height:' + "\n" + pokemon.height + ')' + "<br>" + "<br>")
-//     }
-// }); 
-
